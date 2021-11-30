@@ -1,0 +1,186 @@
+body{
+	font-family: 'Acme', sans-serif;
+	text-align: center;
+	color: whitesmoke;
+	background-image: url(images/THAI.jpg); 
+}
+
+.navbar {
+    transition: all 0.4s;
+}
+
+.navbar .nav-link {
+    color: #fff;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus {
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+
+/* Change navbar styling on scroll */
+.navbar.active {
+    background: #fff;
+    box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.navbar.active .nav-link {
+    color: #555;
+}
+
+.navbar.active .nav-link:hover,
+.navbar.active .nav-link:focus {
+    color: #555;
+    text-decoration: none;
+}
+
+.navbar.active .navbar-brand {
+    color: #555;
+}
+
+
+/* Change navbar styling on small viewports */
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #fff;
+    }
+
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: #555;
+    }
+}
+
+.card-black{
+  background-color:rgba(0, 0, 0, 0.5);;
+}
+
+div:hover{
+	transform: scale(1.01);
+	box-shadow: burlywood;
+}
+
+aside {
+  width: 50%;
+  padding-left: 30px;
+  margin-left: 30px;
+  float: right;
+  font-style: italic;
+  background-color: burlywood;
+}
+
+h1{
+	color: whitesmoke;
+	font-family: 'Amatic SC', sans-serif;
+	font-size: 80;
+}
+
+h2:hover {
+  text-shadow: burlywood;
+}
+
+a{
+	color:  burlywood;
+	font-size: 20;
+	text-decoration: none;
+}
+
+img{
+	width: 100px;
+	border-radius: 50%;
+
+}
+
+.image-circle{
+	border-radius: 50%;
+}
+
+
+h2{
+	color: whitesmoke;
+	font-size: 50;
+	font-family: 'Amatic SC', white;
+}
+
+.card-white{
+	background-color: rgba(219, 181, 133, 0.2);
+}
+.discover{
+	background-color: burlywood;
+	color: white;
+	padding: 15px 20px ;
+	border-radius: 4px;
+}
+
+.discover{
+	background-color: burlywood;
+	color: white;
+}
+
+
+a:hover {
+  background-color: black;
+}
+
+
+.grid-container {
+  column-count: 3;
+  column-gap: 40px;
+}
+
+input[type=text] {
+	display: block;
+  width: 150px;
+  padding: 5px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin: 3px auto;
+}
+
+input[type=submit] {
+	width: 150px;
+	padding: 5px;
+	margin: 3px, 0px;
+  background-color: burlywood;
+  color: white;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+
+.card-white{
+	width: 700px;
+  	border: 15px black;
+ 	padding: 110px;		
+}
+
+
+
+div{
+	box-shadow: 3px 3px 3px 3px burlywood;
+	width: 500px;
+  	border: 15px burlywood;
+ 	padding: 60px;
+ 	margin: 10px auto;
+}
+
+i{
+	font-size: 30px;
+}
+
+i:hover{
+	color: black;
+	font-size: 32px;
+}
+
+
